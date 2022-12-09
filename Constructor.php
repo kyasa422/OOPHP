@@ -25,4 +25,4 @@ use Produk as GlobalProduk;
     }
 
     $ProdukGame = new Produk("Naruto", "Masashi Kishimoto", "Shonen Jump", 30000);
-    echo " Komik : ".$ProdukGame->label();
+    echo " Komik : ".$ProdukGame->Getlabel();
